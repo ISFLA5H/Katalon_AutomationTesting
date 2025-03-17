@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div</name>
+   <tag></tag>
+   <elementGuidId>62f97486-5122-43af-ab9d-1e7bdcb4da8d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='center']/yt-searchbox/button/yt-icon/span/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.ytSearchboxComponentSearchButton > yt-icon > span.yt-icon-shape.style-scope.yt-icon.yt-spec-icon-shape > div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Search&quot;s]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>4d6881b3-6a5e-4467-b1c0-6367b0a39850</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;center&quot;)/yt-searchbox[@class=&quot;ytSearchboxComponentHost ytSearchboxComponentDesktop yt-searchbox-filled-query ytd-masthead&quot;]/button[@class=&quot;ytSearchboxComponentSearchButton&quot;]/yt-icon[1]/span[@class=&quot;yt-icon-shape style-scope yt-icon yt-spec-icon-shape&quot;]/div[1]</value>
+      <webElementGuid>d842bb96-2b6d-4813-adb3-b6fa02977a10</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='center']/yt-searchbox/button/yt-icon/span/div</value>
+      <webElementGuid>303b1990-a1a3-4f88-976c-066e3aeecb02</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Skip navigation'])[1]/following::div[11]</value>
+      <webElementGuid>4b2edc98-d5b7-4a14-ad84-ba2ec5e1880e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='VN'])[1]/following::div[13]</value>
+      <webElementGuid>067cf471-4425-414e-afe5-bdf6a3448b7a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='hoang luan'])[1]/preceding::div[2]</value>
+      <webElementGuid>11800483-3880-4cbd-90e7-3137e051940c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='hoangluan'])[1]/preceding::div[7]</value>
+      <webElementGuid>3fd5a3b6-8d17-417c-a073-fee9f459f26c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//yt-searchbox/button/yt-icon/span/div</value>
+      <webElementGuid>7e1b4c1f-333a-40b7-a2ff-5fea5d5b8433</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
