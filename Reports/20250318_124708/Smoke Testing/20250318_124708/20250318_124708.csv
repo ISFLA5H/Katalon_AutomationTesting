@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Smoke Testing,Chrome 134.0.6998.89,,,18-03-2025 12:47:16,18-03-2025 12:50:32,"3m - 16,047s",FAILED
+,,,,,,,
+Test Cases/Login Test/TC04-Manual Scriptless Mode,Chrome 134.0.6998.89,,,18-03-2025 12:47:16,18-03-2025 12:47:34,"17,752s",PASSED
+"openBrowser(""https://practice.automationtesting.in/my-account/"")",Chrome 134.0.6998.89,,,18-03-2025 12:47:17,18-03-2025 12:47:27,"10,707s",PASSED
+maximizeWindow(),Chrome 134.0.6998.89,,,18-03-2025 12:47:27,18-03-2025 12:47:28,"0,356s",PASSED
+"setText(findTestObject(""TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/input__username""), ""minhanmai@gmail.com"")",Chrome 134.0.6998.89,,,18-03-2025 12:47:28,18-03-2025 12:47:29,"1,458s",PASSED
+"setText(findTestObject(""TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/input__password""), ""hangminhan"")",Chrome 134.0.6998.89,,,18-03-2025 12:47:29,18-03-2025 12:47:30,"0,814s",PASSED
+"click(findTestObject(""TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/input__login""))",Chrome 134.0.6998.89,,,18-03-2025 12:47:30,18-03-2025 12:47:33,"2,824s",PASSED
+"verifyElementText(findTestObject(""TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/strong_minhanmai""), ""minhanmai"")",Chrome 134.0.6998.89,,,18-03-2025 12:47:33,18-03-2025 12:47:34,"0,594s",PASSED
+closeBrowser(),Chrome 134.0.6998.89,,,18-03-2025 12:47:34,18-03-2025 12:47:34,"0,449s",PASSED
+,,,,,,,
+Test Cases/Login Test/Youtube_hoangluan,Chrome 134.0.6998.89,,,18-03-2025 12:49:48,18-03-2025 12:50:32,"44,142s",FAILED
+"openBrowser("""")",Chrome 134.0.6998.89,,,18-03-2025 12:49:48,18-03-2025 12:49:50,"2,056s",PASSED
+"navigateToUrl(""https://www.youtube.com/"")",Chrome 134.0.6998.89,,,18-03-2025 12:49:50,18-03-2025 12:49:54,"3,849s",PASSED
+"click(findTestObject(""Object Repository/Youtube_Search/Page_YouTube/div""))",Chrome 134.0.6998.89,,,18-03-2025 12:49:54,18-03-2025 12:49:56,"2,085s",PASSED
+"click(findTestObject(""Object Repository/Youtube_Search/Page_hoang luan - YouTube/yt-formatted-string_Hong Lun""))",Chrome 134.0.6998.89,,,18-03-2025 12:49:56,18-03-2025 12:50:32,"36,125s",FAILED

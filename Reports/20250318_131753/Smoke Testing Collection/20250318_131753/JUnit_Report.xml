@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Smoke Testing Collection" time="233.305" tests="3" failures="1" errors="0">
+   <testsuite name="Login Test Suit" tests="2" failures="1" errors="0" time="196.321" skipped="0" timestamp="18-03-2025T13:18:05" hostname="sitdo - DESKTOP-9QMJIRE" id="Test Suites/Login Test Suit">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\sitdo\\git\\Katalon_AutomationTesting\\Reports\\20250318_131753\\Login Test Suit\\20250318_131754"/>
+         <property name="logFiles" value="C:\\Users\\sitdo\\git\\Katalon_AutomationTesting\\Reports\\20250318_131753\\Login Test Suit\\20250318_131754\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\sitdo\\git\\Katalon_AutomationTesting\\Reports\\20250318_131753\\Login Test Suit\\20250318_131754\\1742278746474.png, C:\\Users\\sitdo\\git\\Katalon_AutomationTesting\\Reports\\20250318_131753\\Login Test Suit\\20250318_131754\\1742278792064.png, C:\\Users\\sitdo\\git\\Katalon_AutomationTesting\\Reports\\20250318_131753\\Login Test Suit\\20250318_131754\\1742278837164.png, C:\\Users\\sitdo\\git\\Katalon_AutomationTesting\\Reports\\20250318_131753\\Login Test Suit\\20250318_131754\\1742278881618.png"/>
+         <property name="hostName" value="sitdo - DESKTOP-9QMJIRE"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="10.1.1.0"/>
+         <property name="browser" value="Chrome 134.0.6998.89"/>
+         <property name="hostAddress" value="192.168.1.8"/>
+         <property name="sessionId" value="0b1dff031813c817a0c1c01c861f6685"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login Test/TC04-Manual Scriptless Mode" time="16.606" classname="Test Cases/Login Test/TC04-Manual Scriptless Mode" status="PASSED">
+         <system-out><![CDATA[18-03-2025T13:18:06 - [TEST_CASE][PASSED] - Test Cases/Login Test/TC04-Manual Scriptless Mode: Test Cases/Login Test/TC04-Manual Scriptless Mode
+
+18-03-2025T13:18:06 - [TEST_STEP][PASSED] - openBrowser("https://practice.automationtesting.in/my-account/"): Browser is opened with url: 'https://practice.automationtesting.in/my-account/'
+
+18-03-2025T13:18:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+18-03-2025T13:18:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+18-03-2025T13:18:15 - [MESSAGE][PASSED] - Browser is opened with url: 'https://practice.automationtesting.in/my-account/'
+
+18-03-2025T13:18:15 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+18-03-2025T13:18:16 - [MESSAGE][PASSED] - Current window maximized
+
+18-03-2025T13:18:16 - [TEST_STEP][PASSED] - setText(findTestObject("TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/input__username"), "minhanmai@gmail.com"): Text 'minhanmai@gmail.com' is set on object 'Object Repository/TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/input__username'
+
+18-03-2025T13:18:17 - [MESSAGE][PASSED] - Text 'minhanmai@gmail.com' is set on object 'Object Repository/TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/input__username'
+
+18-03-2025T13:18:17 - [TEST_STEP][PASSED] - setText(findTestObject("TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/input__password"), "hangminhan"): Text 'hangminhan' is set on object 'Object Repository/TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/input__password'
+
+18-03-2025T13:18:18 - [MESSAGE][PASSED] - Text 'hangminhan' is set on object 'Object Repository/TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/input__password'
+
+18-03-2025T13:18:18 - [TEST_STEP][PASSED] - click(findTestObject("TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/input__login")): Object: 'Object Repository/TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/input__login' is clicked on
+
+18-03-2025T13:18:21 - [MESSAGE][PASSED] - Object: 'Object Repository/TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/input__login' is clicked on
+
+18-03-2025T13:18:21 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/strong_minhanmai"), "minhanmai"): Actual text and expected text of test object 'Object Repository/TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/strong_minhanmai' are matched.
+
+18-03-2025T13:18:22 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/strong_minhanmai' are matched.
+
+18-03-2025T13:18:22 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+18-03-2025T13:18:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login Test/Youtube_hoangluan" time="44.467" classname="Test Cases/Login Test/Youtube_hoangluan" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Login Test/Youtube_hoangluan FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Youtube_Search/Page_hoang luan - YouTube/yt-formatted-string_Hong Lun'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)&#xa;	at Youtube_hoangluan.run(Youtube_hoangluan:26)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1742278674002.run(TempTestSuite1742278674002.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Youtube_Search/Page_hoang luan - YouTube/yt-formatted-string_Hong Lun' located by '(//yt-formatted-string[@id='text'])[14]' not found&#xa;	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1457)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)&#xa;	... 23 more&#xa;"/>
+         <system-out><![CDATA[18-03-2025T13:20:37 - [TEST_CASE][FAILED] - Test Cases/Login Test/Youtube_hoangluan: Test Cases/Login Test/Youtube_hoangluan FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Youtube_Search/Page_hoang luan - YouTube/yt-formatted-string_Hong Lun'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Youtube_hoangluan.run(Youtube_hoangluan:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1742278674002.run(TempTestSuite1742278674002.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Youtube_Search/Page_hoang luan - YouTube/yt-formatted-string_Hong Lun' located by '(//yt-formatted-string[@id='text'])[14]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1457)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 23 more
+
+
+18-03-2025T13:20:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+18-03-2025T13:20:37 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+18-03-2025T13:20:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+18-03-2025T13:20:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+18-03-2025T13:20:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+18-03-2025T13:20:40 - [TEST_STEP][PASSED] - navigateToUrl("https://www.youtube.com/"): Navigate to 'https://www.youtube.com/' successfully
+
+18-03-2025T13:20:40 - [MESSAGE][PASSED] - Navigate to 'https://www.youtube.com/' successfully
+
+18-03-2025T13:20:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Youtube_Search/Page_YouTube/div")): Object: 'Object Repository/Youtube_Search/Page_YouTube/div' is clicked on
+
+18-03-2025T13:20:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Youtube_Search/Page_YouTube/div' is clicked on
+
+18-03-2025T13:20:45 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/Youtube_Search/Page_hoang luan - YouTube/yt-formatted-string_Hong Lun")): Unable to click on object 'Object Repository/Youtube_Search/Page_hoang luan - YouTube/yt-formatted-string_Hong Lun' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Youtube_Search/Page_hoang luan - YouTube/yt-formatted-string_Hong Lun'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Youtube_hoangluan.run(Youtube_hoangluan:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1742278674002.run(TempTestSuite1742278674002.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Youtube_Search/Page_hoang luan - YouTube/yt-formatted-string_Hong Lun' located by '(//yt-formatted-string[@id='text'])[14]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1457)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Script1742198194869.run(Script1742198194869.groovy:26)
+	... 18 more
+)
+
+18-03-2025T13:21:16 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//yt-formatted-string[@id='text'])[14]'. Please recheck the objects properties to make sure the desired element is located. 
+
+18-03-2025T13:21:16 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Youtube_Search/Page_hoang luan - YouTube/yt-formatted-string_Hong Lun'. Try using Self-healing.
+
+18-03-2025T13:21:17 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(//yt-formatted-string[@id='text'])[14]'.
+
+18-03-2025T13:21:17 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(//div[@id='text-container']/yt-formatted-string)[6]'.
+
+18-03-2025T13:21:17 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='more'])[1]/following::yt-formatted-string[3]'.
+
+18-03-2025T13:21:17 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='+'])[1]/following::yt-formatted-string[3]'.
+
+18-03-2025T13:21:18 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//a/div/ytd-channel-name/div/div/yt-formatted-string'.
+
+18-03-2025T13:21:18 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//yt-formatted-string[@id = 'text' and (text() = 'Hoàng Luân' or . = 'Hoàng Luân')]'.
+
+18-03-2025T13:21:20 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@id = 'text' and (text() = 'Hoàng Luân' or . = 'Hoàng Luân')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+18-03-2025T13:21:21 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: #channel-title > #container > #text-container > #text'. Please recheck the objects properties to make sure the desired element is located. 
+
+18-03-2025T13:21:21 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Youtube_Search/Page_hoang luan - YouTube/yt-formatted-string_Hong Lun' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Youtube_Search/Page_hoang luan - YouTube/yt-formatted-string_Hong Lun'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Youtube_hoangluan.run(Youtube_hoangluan:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1742278674002.run(TempTestSuite1742278674002.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Youtube_Search/Page_hoang luan - YouTube/yt-formatted-string_Hong Lun' located by '(//yt-formatted-string[@id='text'])[14]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1457)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Script1742198194869.run(Script1742198194869.groovy:26)
+	... 18 more
+)
+[[ATTACHMENT|C:\\Users\\sitdo\\git\\Katalon_AutomationTesting\\Reports\\20250318_131753\\Login Test Suit\\20250318_131754\\1742278881618.png]]]]></system-out>
+         <system-err><![CDATA[18-03-2025T13:20:37 - [TEST_CASE][FAILED] - Test Cases/Login Test/Youtube_hoangluan: Test Cases/Login Test/Youtube_hoangluan FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Youtube_Search/Page_hoang luan - YouTube/yt-formatted-string_Hong Lun'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Youtube_hoangluan.run(Youtube_hoangluan:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1742278674002.run(TempTestSuite1742278674002.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Youtube_Search/Page_hoang luan - YouTube/yt-formatted-string_Hong Lun' located by '(//yt-formatted-string[@id='text'])[14]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1457)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 23 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[18-03-2025T13:18:05 - [TEST_SUITE][FAILED] - Login Test Suit: Test Cases/Login Test/Youtube_hoangluan FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Youtube_Search/Page_hoang luan - YouTube/yt-formatted-string_Hong Lun'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Youtube_hoangluan.run(Youtube_hoangluan:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1742278674002.run(TempTestSuite1742278674002.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Youtube_Search/Page_hoang luan - YouTube/yt-formatted-string_Hong Lun' located by '(//yt-formatted-string[@id='text'])[14]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1457)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[18-03-2025T13:18:05 - [TEST_SUITE][FAILED] - Login Test Suit: Test Cases/Login Test/Youtube_hoangluan FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Youtube_Search/Page_hoang luan - YouTube/yt-formatted-string_Hong Lun'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at Youtube_hoangluan.run(Youtube_hoangluan:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1742278674002.run(TempTestSuite1742278674002.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Youtube_Search/Page_hoang luan - YouTube/yt-formatted-string_Hong Lun' located by '(//yt-formatted-string[@id='text'])[14]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1457)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more]]></system-err>
+   </testsuite>
+   <testsuite name="Logout Test Suit" tests="1" failures="0" errors="0" time="20.565" skipped="0" timestamp="18-03-2025T13:21:30" hostname="sitdo - DESKTOP-9QMJIRE" id="Test Suites/Logout Test Suit">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\sitdo\\git\\Katalon_AutomationTesting\\Reports\\20250318_131753\\Logout Test Suit\\20250318_131756"/>
+         <property name="logFiles" value="C:\\Users\\sitdo\\git\\Katalon_AutomationTesting\\Reports\\20250318_131753\\Logout Test Suit\\20250318_131756\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="sitdo - DESKTOP-9QMJIRE"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="10.1.1.0"/>
+         <property name="browser" value="Chrome 134.0.6998.89"/>
+         <property name="hostAddress" value="192.168.1.8"/>
+         <property name="sessionId" value="bb7c1086798e73ca0b9847a67ef2a280"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Logout Test/Logout Testing" time="20.151" classname="Test Cases/Logout Test/Logout Testing" status="PASSED">
+         <system-out><![CDATA[18-03-2025T13:21:31 - [TEST_CASE][PASSED] - Test Cases/Logout Test/Logout Testing: Test Cases/Logout Test/Logout Testing
+
+18-03-2025T13:21:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+18-03-2025T13:21:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+18-03-2025T13:21:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+18-03-2025T13:21:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+18-03-2025T13:21:36 - [TEST_STEP][PASSED] - navigateToUrl("https://practice.automationtesting.in/my-account/"): Navigate to 'https://practice.automationtesting.in/my-account/' successfully
+
+18-03-2025T13:21:41 - [MESSAGE][PASSED] - Navigate to 'https://practice.automationtesting.in/my-account/' successfully
+
+18-03-2025T13:21:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Logout Test/Page_My Account  Automation Practice Site/input__username"), "minhanmai@gmail.com"): Text 'minhanmai@gmail.com' is set on object 'Object Repository/Logout Test/Page_My Account  Automation Practice Site/input__username'
+
+18-03-2025T13:21:42 - [MESSAGE][PASSED] - Text 'minhanmai@gmail.com' is set on object 'Object Repository/Logout Test/Page_My Account  Automation Practice Site/input__username'
+
+18-03-2025T13:21:42 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Logout Test/Page_My Account  Automation Practice Site/input__password"), "9NAsGwMuiTI8GFBWJLsj/Q=="): Text ****** has been set on object 'Object Repository/Logout Test/Page_My Account  Automation Practice Site/input__password'
+
+18-03-2025T13:21:43 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Logout Test/Page_My Account  Automation Practice Site/input__password'
+
+18-03-2025T13:21:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Logout Test/Page_My Account  Automation Practice Site/input__login")): Object: 'Object Repository/Logout Test/Page_My Account  Automation Practice Site/input__login' is clicked on
+
+18-03-2025T13:21:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Logout Test/Page_My Account  Automation Practice Site/input__login' is clicked on
+
+18-03-2025T13:21:43 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Logout Test/Page_My Account  Automation Practice Site/a_Sign out"), 0): Object 'Object Repository/Logout Test/Page_My Account  Automation Practice Site/a_Sign out' is present
+
+18-03-2025T13:21:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+18-03-2025T13:21:47 - [MESSAGE][PASSED] - Object 'Object Repository/Logout Test/Page_My Account  Automation Practice Site/a_Sign out' is present
+
+18-03-2025T13:21:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Logout Test/Page_My Account  Automation Practice Site/a_Sign out")): Object: 'Object Repository/Logout Test/Page_My Account  Automation Practice Site/a_Sign out' is clicked on
+
+18-03-2025T13:21:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Logout Test/Page_My Account  Automation Practice Site/a_Sign out' is clicked on
+
+18-03-2025T13:21:50 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+18-03-2025T13:21:51 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[18-03-2025T13:21:30 - [TEST_SUITE][PASSED] - Logout Test Suit: Test Cases/Logout Test/Logout Testing]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

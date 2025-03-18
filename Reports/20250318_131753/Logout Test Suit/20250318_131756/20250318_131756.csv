@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Logout Test Suit,Chrome 134.0.6998.89,,,18-03-2025 13:21:30,18-03-2025 13:21:51,"20,565s",PASSED
+,,,,,,,
+Test Cases/Logout Test/Logout Testing,Chrome 134.0.6998.89,,,18-03-2025 13:21:31,18-03-2025 13:21:51,"20,151s",PASSED
+"openBrowser("""")",Chrome 134.0.6998.89,,,18-03-2025 13:21:31,18-03-2025 13:21:36,"4,909s",PASSED
+"navigateToUrl(""https://practice.automationtesting.in/my-account/"")",Chrome 134.0.6998.89,,,18-03-2025 13:21:36,18-03-2025 13:21:41,"4,522s",PASSED
+"setText(findTestObject(""Object Repository/Logout Test/Page_My Account  Automation Practice Site/input__username""), ""minhanmai@gmail.com"")",Chrome 134.0.6998.89,,,18-03-2025 13:21:41,18-03-2025 13:21:42,"1,779s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Logout Test/Page_My Account  Automation Practice Site/input__password""), ""9NAsGwMuiTI8GFBWJLsj/Q=="")",Chrome 134.0.6998.89,,,18-03-2025 13:21:42,18-03-2025 13:21:43,"0,528s",PASSED
+"click(findTestObject(""Object Repository/Logout Test/Page_My Account  Automation Practice Site/input__login""))",Chrome 134.0.6998.89,,,18-03-2025 13:21:43,18-03-2025 13:21:43,"0,443s",PASSED
+"verifyElementPresent(findTestObject(""Logout Test/Page_My Account  Automation Practice Site/a_Sign out""), 0)",Chrome 134.0.6998.89,,,18-03-2025 13:21:43,18-03-2025 13:21:47,"3,406s",PASSED
+"click(findTestObject(""Object Repository/Logout Test/Page_My Account  Automation Practice Site/a_Sign out""))",Chrome 134.0.6998.89,,,18-03-2025 13:21:47,18-03-2025 13:21:50,"3,653s",PASSED
+closeBrowser(),Chrome 134.0.6998.89,,,18-03-2025 13:21:50,18-03-2025 13:21:51,"0,316s",PASSED
