@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Data Driven Testing" time="30.666" tests="2" failures="0" errors="0">
+   <testsuite name="Data Driven Testing" tests="2" failures="0" errors="0" time="30.666" skipped="0" timestamp="21-03-2025T12:38:04" hostname="sitdo - DESKTOP-9QMJIRE" id="Test Suites/Data Driven Testing">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\sitdo\\git\\Katalon_AutomationTesting\\Reports\\20250321_123756\\Data Driven Testing\\20250321_123756"/>
+         <property name="logFiles" value="C:\\Users\\sitdo\\git\\Katalon_AutomationTesting\\Reports\\20250321_123756\\Data Driven Testing\\20250321_123756\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="sitdo - DESKTOP-9QMJIRE"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="10.1.1.0"/>
+         <property name="browser" value="Chrome 134.0.6998.118"/>
+         <property name="hostAddress" value="192.168.1.8"/>
+         <property name="sessionId" value="4e4eae2c68cece1e2ef3605eaf104f0e"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login Test/TC04-Manual Scriptless Mode" time="17.412" classname="Test Cases/Login Test/TC04-Manual Scriptless Mode" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"Username":"minhanmai@gmail.com","Acccountname":"minhanmai","Password":"hangminhan"}]]></property>
+         </properties>
+         <system-out><![CDATA[21-03-2025T12:38:04 - [TEST_CASE][PASSED] - Test Cases/Login Test/TC04-Manual Scriptless Mode: Test Cases/Login Test/TC04-Manual Scriptless Mode
+
+21-03-2025T12:38:05 - [TEST_STEP][PASSED] - openBrowser("https://practice.automationtesting.in/my-account/"): Browser is opened with url: 'https://practice.automationtesting.in/my-account/'
+
+21-03-2025T12:38:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-03-2025T12:38:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-03-2025T12:38:14 - [MESSAGE][PASSED] - Browser is opened with url: 'https://practice.automationtesting.in/my-account/'
+
+21-03-2025T12:38:14 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+21-03-2025T12:38:14 - [MESSAGE][PASSED] - Current window maximized
+
+21-03-2025T12:38:14 - [TEST_STEP][PASSED] - setText(findTestObject("TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/input__username"), Username): Text 'minhanmai@gmail.com' is set on object 'Object Repository/TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/input__username'
+
+21-03-2025T12:38:16 - [MESSAGE][PASSED] - Text 'minhanmai@gmail.com' is set on object 'Object Repository/TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/input__username'
+
+21-03-2025T12:38:16 - [TEST_STEP][PASSED] - setText(findTestObject("TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/input__password"), Password): Text 'hangminhan' is set on object 'Object Repository/TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/input__password'
+
+21-03-2025T12:38:17 - [MESSAGE][PASSED] - Text 'hangminhan' is set on object 'Object Repository/TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/input__password'
+
+21-03-2025T12:38:17 - [TEST_STEP][PASSED] - click(findTestObject("TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/input__login")): Object: 'Object Repository/TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/input__login' is clicked on
+
+21-03-2025T12:38:20 - [MESSAGE][PASSED] - Object: 'Object Repository/TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/input__login' is clicked on
+
+21-03-2025T12:38:20 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/strong_minhanmai"), Acccountname): Actual text and expected text of test object 'Object Repository/TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/strong_minhanmai' are matched.
+
+21-03-2025T12:38:21 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/strong_minhanmai' are matched.
+
+21-03-2025T12:38:21 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+21-03-2025T12:38:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login Test/TC04-Manual Scriptless Mode" time="12.58" classname="Test Cases/Login Test/TC04-Manual Scriptless Mode" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"Username":"hangminhan@gmail.com","Acccountname":"hangminhan","Password":"hangminhan"}]]></property>
+         </properties>
+         <system-out><![CDATA[21-03-2025T12:38:22 - [TEST_CASE][PASSED] - Test Cases/Login Test/TC04-Manual Scriptless Mode: Test Cases/Login Test/TC04-Manual Scriptless Mode
+
+21-03-2025T12:38:22 - [TEST_STEP][PASSED] - openBrowser("https://practice.automationtesting.in/my-account/"): Browser is opened with url: 'https://practice.automationtesting.in/my-account/'
+
+21-03-2025T12:38:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-03-2025T12:38:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-03-2025T12:38:29 - [MESSAGE][PASSED] - Browser is opened with url: 'https://practice.automationtesting.in/my-account/'
+
+21-03-2025T12:38:29 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+21-03-2025T12:38:29 - [MESSAGE][PASSED] - Current window maximized
+
+21-03-2025T12:38:29 - [TEST_STEP][PASSED] - setText(findTestObject("TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/input__username"), Username): Text 'hangminhan@gmail.com' is set on object 'Object Repository/TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/input__username'
+
+21-03-2025T12:38:31 - [MESSAGE][PASSED] - Text 'hangminhan@gmail.com' is set on object 'Object Repository/TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/input__username'
+
+21-03-2025T12:38:31 - [TEST_STEP][PASSED] - setText(findTestObject("TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/input__password"), Password): Text 'hangminhan' is set on object 'Object Repository/TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/input__password'
+
+21-03-2025T12:38:31 - [MESSAGE][PASSED] - Text 'hangminhan' is set on object 'Object Repository/TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/input__password'
+
+21-03-2025T12:38:31 - [TEST_STEP][PASSED] - click(findTestObject("TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/input__login")): Object: 'Object Repository/TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/input__login' is clicked on
+
+21-03-2025T12:38:34 - [MESSAGE][PASSED] - Object: 'Object Repository/TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/input__login' is clicked on
+
+21-03-2025T12:38:34 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/strong_minhanmai"), Acccountname): Actual text and expected text of test object 'Object Repository/TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/strong_minhanmai' are matched.
+
+21-03-2025T12:38:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/strong_minhanmai' are matched.
+
+21-03-2025T12:38:34 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+21-03-2025T12:38:35 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[21-03-2025T12:38:04 - [TEST_SUITE][PASSED] - Data Driven Testing: Test Cases/Login Test/TC04-Manual Scriptless Mode]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

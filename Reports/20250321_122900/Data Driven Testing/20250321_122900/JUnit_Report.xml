@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Data Driven Testing" time="187.638" tests="2" failures="1" errors="0">
+   <testsuite name="Data Driven Testing" tests="2" failures="1" errors="0" time="187.638" skipped="0" timestamp="21-03-2025T12:29:08" hostname="sitdo - DESKTOP-9QMJIRE" id="Test Suites/Data Driven Testing">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\sitdo\\git\\Katalon_AutomationTesting\\Reports\\20250321_122900\\Data Driven Testing\\20250321_122900"/>
+         <property name="logFiles" value="C:\\Users\\sitdo\\git\\Katalon_AutomationTesting\\Reports\\20250321_122900\\Data Driven Testing\\20250321_122900\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\sitdo\\git\\Katalon_AutomationTesting\\Reports\\20250321_122900\\Data Driven Testing\\20250321_122900\\1742535010275.png, C:\\Users\\sitdo\\git\\Katalon_AutomationTesting\\Reports\\20250321_122900\\Data Driven Testing\\20250321_122900\\1742535010449.png, C:\\Users\\sitdo\\git\\Katalon_AutomationTesting\\Reports\\20250321_122900\\Data Driven Testing\\20250321_122900\\1742535050747.png, C:\\Users\\sitdo\\git\\Katalon_AutomationTesting\\Reports\\20250321_122900\\Data Driven Testing\\20250321_122900\\1742535050930.png, C:\\Users\\sitdo\\git\\Katalon_AutomationTesting\\Reports\\20250321_122900\\Data Driven Testing\\20250321_122900\\1742535092260.png, C:\\Users\\sitdo\\git\\Katalon_AutomationTesting\\Reports\\20250321_122900\\Data Driven Testing\\20250321_122900\\1742535092608.png, C:\\Users\\sitdo\\git\\Katalon_AutomationTesting\\Reports\\20250321_122900\\Data Driven Testing\\20250321_122900\\1742535135329.png, C:\\Users\\sitdo\\git\\Katalon_AutomationTesting\\Reports\\20250321_122900\\Data Driven Testing\\20250321_122900\\1742535135689.png"/>
+         <property name="hostName" value="sitdo - DESKTOP-9QMJIRE"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="10.1.1.0"/>
+         <property name="browser" value="Chrome 134.0.6998.118"/>
+         <property name="hostAddress" value="192.168.1.8"/>
+         <property name="sessionId" value="55ecc84c31af17b5d3a7cb6b6ec5f71a"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login Test/TC04-Manual Scriptless Mode" time="16.974" classname="Test Cases/Login Test/TC04-Manual Scriptless Mode" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"Username":"minhanmai@gmail.com","Password":"hangminhan"}]]></property>
+         </properties>
+         <system-out><![CDATA[21-03-2025T12:29:09 - [TEST_CASE][PASSED] - Test Cases/Login Test/TC04-Manual Scriptless Mode: Test Cases/Login Test/TC04-Manual Scriptless Mode
+
+21-03-2025T12:29:10 - [TEST_STEP][PASSED] - openBrowser("https://practice.automationtesting.in/my-account/"): Browser is opened with url: 'https://practice.automationtesting.in/my-account/'
+
+21-03-2025T12:29:11 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-03-2025T12:29:11 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-03-2025T12:29:19 - [MESSAGE][PASSED] - Browser is opened with url: 'https://practice.automationtesting.in/my-account/'
+
+21-03-2025T12:29:19 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+21-03-2025T12:29:20 - [MESSAGE][PASSED] - Current window maximized
+
+21-03-2025T12:29:20 - [TEST_STEP][PASSED] - setText(findTestObject("TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/input__username"), Username): Text 'minhanmai@gmail.com' is set on object 'Object Repository/TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/input__username'
+
+21-03-2025T12:29:21 - [MESSAGE][PASSED] - Text 'minhanmai@gmail.com' is set on object 'Object Repository/TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/input__username'
+
+21-03-2025T12:29:21 - [TEST_STEP][PASSED] - setText(findTestObject("TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/input__password"), Password): Text 'hangminhan' is set on object 'Object Repository/TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/input__password'
+
+21-03-2025T12:29:22 - [MESSAGE][PASSED] - Text 'hangminhan' is set on object 'Object Repository/TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/input__password'
+
+21-03-2025T12:29:22 - [TEST_STEP][PASSED] - click(findTestObject("TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/input__login")): Object: 'Object Repository/TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/input__login' is clicked on
+
+21-03-2025T12:29:24 - [MESSAGE][PASSED] - Object: 'Object Repository/TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/input__login' is clicked on
+
+21-03-2025T12:29:24 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/strong_minhanmai"), "minhanmai"): Actual text and expected text of test object 'Object Repository/TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/strong_minhanmai' are matched.
+
+21-03-2025T12:29:25 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/strong_minhanmai' are matched.
+
+21-03-2025T12:29:25 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+21-03-2025T12:29:26 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login Test/TC04-Manual Scriptless Mode" time="43.153" classname="Test Cases/Login Test/TC04-Manual Scriptless Mode" status="FAILED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"Username":"minhan24122018@gmail.com","Password":"hangminhan"}]]></property>
+         </properties>
+         <failure type="FAILED" message="Test Cases/Login Test/TC04-Manual Scriptless Mode FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/strong_minhanmai' FAILED.&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4994)&#xa;	at TC04-Manual Scriptless Mode.run(TC04-Manual Scriptless Mode:32)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1742534940219.run(TempTestSuite1742534940219.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Error:' and expected text 'minhanmai' of test object 'Object Repository/TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/strong_minhanmai' are NOT matched.&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)&#xa;	... 23 more&#xa;"/>
+         <system-out><![CDATA[21-03-2025T12:31:32 - [TEST_CASE][FAILED] - Test Cases/Login Test/TC04-Manual Scriptless Mode: Test Cases/Login Test/TC04-Manual Scriptless Mode FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/strong_minhanmai' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4994)
+	at TC04-Manual Scriptless Mode.run(TC04-Manual Scriptless Mode:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1742534940219.run(TempTestSuite1742534940219.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Error:' and expected text 'minhanmai' of test object 'Object Repository/TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/strong_minhanmai' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 23 more
+
+
+21-03-2025T12:31:32 - [TEST_STEP][PASSED] - openBrowser("https://practice.automationtesting.in/my-account/"): Browser is opened with url: 'https://practice.automationtesting.in/my-account/'
+
+21-03-2025T12:31:32 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+21-03-2025T12:31:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-03-2025T12:31:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-03-2025T12:31:40 - [MESSAGE][PASSED] - Browser is opened with url: 'https://practice.automationtesting.in/my-account/'
+
+21-03-2025T12:31:40 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+21-03-2025T12:31:40 - [MESSAGE][PASSED] - Current window maximized
+
+21-03-2025T12:31:40 - [TEST_STEP][PASSED] - setText(findTestObject("TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/input__username"), Username): Text 'minhan24122018@gmail.com' is set on object 'Object Repository/TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/input__username'
+
+21-03-2025T12:31:42 - [MESSAGE][PASSED] - Text 'minhan24122018@gmail.com' is set on object 'Object Repository/TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/input__username'
+
+21-03-2025T12:31:42 - [TEST_STEP][PASSED] - setText(findTestObject("TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/input__password"), Password): Text 'hangminhan' is set on object 'Object Repository/TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/input__password'
+
+21-03-2025T12:31:43 - [MESSAGE][PASSED] - Text 'hangminhan' is set on object 'Object Repository/TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/input__password'
+
+21-03-2025T12:31:43 - [TEST_STEP][PASSED] - click(findTestObject("TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/input__login")): Object: 'Object Repository/TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/input__login' is clicked on
+
+21-03-2025T12:31:43 - [MESSAGE][PASSED] - Object: 'Object Repository/TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/input__login' is clicked on
+
+21-03-2025T12:31:43 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/strong_minhanmai"), "minhanmai"): Verify element text of test object 'Object Repository/TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/strong_minhanmai' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/strong_minhanmai' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4994)
+	at TC04-Manual Scriptless Mode.run(TC04-Manual Scriptless Mode:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1742534940219.run(TempTestSuite1742534940219.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Error:' and expected text 'minhanmai' of test object 'Object Repository/TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/strong_minhanmai' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 23 more
+)
+
+21-03-2025T12:32:14 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='page-36']/div/div/div/p/strong'. Please recheck the objects properties to make sure the desired element is located. 
+
+21-03-2025T12:32:14 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/strong_minhanmai'. Try using Self-healing.
+
+21-03-2025T12:32:15 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/strong_minhanmai' was broken. Propose an alternative one: '//strong'.
+
+21-03-2025T12:32:15 - [MESSAGE][FAILED] - Actual text 'Error:' and expected text 'minhanmai' of test object 'Object Repository/TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/strong_minhanmai' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'Error:' and expected text 'minhanmai' of test object 'Object Repository/TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/strong_minhanmai' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4994)
+	at TC04-Manual Scriptless Mode.run(TC04-Manual Scriptless Mode:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1742534940219.run(TempTestSuite1742534940219.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|C:\\Users\\sitdo\\git\\Katalon_AutomationTesting\\Reports\\20250321_122900\\Data Driven Testing\\20250321_122900\\1742535135329.png]]
+
+21-03-2025T12:32:15 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/strong_minhanmai' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/strong_minhanmai' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4994)
+	at TC04-Manual Scriptless Mode.run(TC04-Manual Scriptless Mode:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1742534940219.run(TempTestSuite1742534940219.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Error:' and expected text 'minhanmai' of test object 'Object Repository/TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/strong_minhanmai' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 23 more
+)
+[[ATTACHMENT|C:\\Users\\sitdo\\git\\Katalon_AutomationTesting\\Reports\\20250321_122900\\Data Driven Testing\\20250321_122900\\1742535135689.png]]]]></system-out>
+         <system-err><![CDATA[21-03-2025T12:31:32 - [TEST_CASE][FAILED] - Test Cases/Login Test/TC04-Manual Scriptless Mode: Test Cases/Login Test/TC04-Manual Scriptless Mode FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/strong_minhanmai' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4994)
+	at TC04-Manual Scriptless Mode.run(TC04-Manual Scriptless Mode:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1742534940219.run(TempTestSuite1742534940219.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Error:' and expected text 'minhanmai' of test object 'Object Repository/TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/strong_minhanmai' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 23 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[21-03-2025T12:29:08 - [TEST_SUITE][FAILED] - Data Driven Testing: Test Cases/Login Test/TC04-Manual Scriptless Mode FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/strong_minhanmai' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4994)
+	at TC04-Manual Scriptless Mode.run(TC04-Manual Scriptless Mode:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1742534940219.run(TempTestSuite1742534940219.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Error:' and expected text 'minhanmai' of test object 'Object Repository/TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/strong_minhanmai' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[21-03-2025T12:29:08 - [TEST_SUITE][FAILED] - Data Driven Testing: Test Cases/Login Test/TC04-Manual Scriptless Mode FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/strong_minhanmai' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4994)
+	at TC04-Manual Scriptless Mode.run(TC04-Manual Scriptless Mode:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1742534940219.run(TempTestSuite1742534940219.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Error:' and expected text 'minhanmai' of test object 'Object Repository/TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/strong_minhanmai' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

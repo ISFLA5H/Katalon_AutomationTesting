@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Data Driven Testing,Chrome 134.0.6998.118,,,21-03-2025 12:38:04,21-03-2025 12:38:35,"30,666s",PASSED
+,,,,,,,
+Test Cases/Login Test/TC04-Manual Scriptless Mode,Chrome 134.0.6998.118,,,21-03-2025 12:38:04,21-03-2025 12:38:22,"17,412s",PASSED
+"DATA BINDING - {""Username"":""minhanmai@gmail.com"",""Acccountname"":""minhanmai"",""Password"":""hangminhan""}",,,,,,,
+"openBrowser(""https://practice.automationtesting.in/my-account/"")",Chrome 134.0.6998.118,,,21-03-2025 12:38:05,21-03-2025 12:38:14,"8,893s",PASSED
+maximizeWindow(),Chrome 134.0.6998.118,,,21-03-2025 12:38:14,21-03-2025 12:38:14,"0,246s",PASSED
+"setText(findTestObject(""TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/input__username""), Username)",Chrome 134.0.6998.118,,,21-03-2025 12:38:14,21-03-2025 12:38:16,"1,624s",PASSED
+"setText(findTestObject(""TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/input__password""), Password)",Chrome 134.0.6998.118,,,21-03-2025 12:38:16,21-03-2025 12:38:17,"0,805s",PASSED
+"click(findTestObject(""TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/input__login""))",Chrome 134.0.6998.118,,,21-03-2025 12:38:17,21-03-2025 12:38:20,"3,298s",PASSED
+"verifyElementText(findTestObject(""TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/strong_minhanmai""), Acccountname)",Chrome 134.0.6998.118,,,21-03-2025 12:38:20,21-03-2025 12:38:21,"1,299s",PASSED
+closeBrowser(),Chrome 134.0.6998.118,,,21-03-2025 12:38:21,21-03-2025 12:38:22,"0,505s",PASSED
+,,,,,,,
+Test Cases/Login Test/TC04-Manual Scriptless Mode,Chrome 134.0.6998.118,,,21-03-2025 12:38:22,21-03-2025 12:38:35,"12,580s",PASSED
+"DATA BINDING - {""Username"":""hangminhan@gmail.com"",""Acccountname"":""hangminhan"",""Password"":""hangminhan""}",,,,,,,
+"openBrowser(""https://practice.automationtesting.in/my-account/"")",Chrome 134.0.6998.118,,,21-03-2025 12:38:22,21-03-2025 12:38:29,"6,989s",PASSED
+maximizeWindow(),Chrome 134.0.6998.118,,,21-03-2025 12:38:29,21-03-2025 12:38:29,"0,154s",PASSED
+"setText(findTestObject(""TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/input__username""), Username)",Chrome 134.0.6998.118,,,21-03-2025 12:38:29,21-03-2025 12:38:31,"1,523s",PASSED
+"setText(findTestObject(""TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/input__password""), Password)",Chrome 134.0.6998.118,,,21-03-2025 12:38:31,21-03-2025 12:38:31,"0,755s",PASSED
+"click(findTestObject(""TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/input__login""))",Chrome 134.0.6998.118,,,21-03-2025 12:38:31,21-03-2025 12:38:34,"2,232s",PASSED
+"verifyElementText(findTestObject(""TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/strong_minhanmai""), Acccountname)",Chrome 134.0.6998.118,,,21-03-2025 12:38:34,21-03-2025 12:38:34,"0,575s",PASSED
+closeBrowser(),Chrome 134.0.6998.118,,,21-03-2025 12:38:34,21-03-2025 12:38:35,"0,298s",PASSED

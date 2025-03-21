@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Evironment Test Suit" time="17.334" tests="1" failures="0" errors="0">
+   <testsuite name="Evironment Test Suit" tests="1" failures="0" errors="0" time="17.334" skipped="0" timestamp="21-03-2025T12:53:44" hostname="sitdo - DESKTOP-9QMJIRE" id="Test Suites/Evironment Test Suit">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\sitdo\\git\\Katalon_AutomationTesting\\Reports\\20250321_125334\\Evironment Test Suit\\20250321_125335"/>
+         <property name="logFiles" value="C:\\Users\\sitdo\\git\\Katalon_AutomationTesting\\Reports\\20250321_125334\\Evironment Test Suit\\20250321_125335\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="sitdo - DESKTOP-9QMJIRE"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="10.1.1.0"/>
+         <property name="browser" value="Chrome 134.0.6998.118"/>
+         <property name="hostAddress" value="192.168.1.8"/>
+         <property name="sessionId" value="38e993ce6a08ea52cc9932cf3f33f95b"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login Test/Eviroment Testing" time="16.869" classname="Test Cases/Login Test/Eviroment Testing" status="PASSED">
+         <system-out><![CDATA[21-03-2025T12:53:44 - [TEST_CASE][PASSED] - Test Cases/Login Test/Eviroment Testing: Test Cases/Login Test/Eviroment Testing
+
+21-03-2025T12:53:45 - [TEST_STEP][PASSED] - openBrowser(URL): Browser is opened with url: 'https://practice.automationtesting.in/my-account/'
+
+21-03-2025T12:53:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-03-2025T12:53:46 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-03-2025T12:53:54 - [MESSAGE][PASSED] - Browser is opened with url: 'https://practice.automationtesting.in/my-account/'
+
+21-03-2025T12:53:54 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+21-03-2025T12:53:54 - [MESSAGE][PASSED] - Current window maximized
+
+21-03-2025T12:53:54 - [TEST_STEP][PASSED] - setText(findTestObject("TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/input__username"), Username): Text 'hangminhan@gmail.com' is set on object 'Object Repository/TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/input__username'
+
+21-03-2025T12:53:56 - [MESSAGE][PASSED] - Text 'hangminhan@gmail.com' is set on object 'Object Repository/TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/input__username'
+
+21-03-2025T12:53:56 - [TEST_STEP][PASSED] - setText(findTestObject("TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/input__password"), Password): Text 'hangminhan' is set on object 'Object Repository/TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/input__password'
+
+21-03-2025T12:53:57 - [MESSAGE][PASSED] - Text 'hangminhan' is set on object 'Object Repository/TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/input__password'
+
+21-03-2025T12:53:57 - [TEST_STEP][PASSED] - click(findTestObject("TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/input__login")): Object: 'Object Repository/TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/input__login' is clicked on
+
+21-03-2025T12:53:59 - [MESSAGE][PASSED] - Object: 'Object Repository/TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/input__login' is clicked on
+
+21-03-2025T12:53:59 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/strong_minhanmai"), Accountname): Actual text and expected text of test object 'Object Repository/TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/strong_minhanmai' are matched.
+
+21-03-2025T12:54:01 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/strong_minhanmai' are matched.
+
+21-03-2025T12:54:01 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+21-03-2025T12:54:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[21-03-2025T12:53:44 - [TEST_SUITE][PASSED] - Evironment Test Suit: Test Cases/Login Test/Eviroment Testing]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

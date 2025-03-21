@@ -17,20 +17,16 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('https://practice.automationtesting.in/my-account/')
-
-WebUI.maximizeWindow()
 
 WebUI.setText(findTestObject('TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/input__username'), 
-    Username)
+    'minhanmai@gmail.com')
 
 WebUI.setText(findTestObject('TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/input__password'), 
-    Password)
+    'hangminhan')
 
 WebUI.click(findTestObject('TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/input__login'))
 
 WebUI.verifyElementText(findTestObject('TC04-Manual Scriptless Mode Element/Page_My Account  Automation Practice Site/strong_minhanmai'), 
-    Acccountname)
+    'minhanmai')
 
-WebUI.closeBrowser()
 

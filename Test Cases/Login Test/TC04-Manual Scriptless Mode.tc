@@ -6,4 +6,43 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>701ea140-529c-4274-ad3d-7ae2cc07e966</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1695cd3e-5573-40ce-9603-ac72855c731d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>aceb96f5-72c5-4b23-b161-355dd65fe795</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b835d290-0cd9-40e0-92b9-72b1ee586089</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1695cd3e-5573-40ce-9603-ac72855c731d</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>aceb96f5-72c5-4b23-b161-355dd65fe795</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b835d290-0cd9-40e0-92b9-72b1ee586089</id>
+      <masked>false</masked>
+      <name>Acccountname</name>
+   </variable>
 </TestCaseEntity>

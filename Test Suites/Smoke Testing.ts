@@ -17,6 +17,24 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Login Test/TC04-Manual Scriptless Mode</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1695cd3e-5573-40ce-9603-ac72855c731d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>aceb96f5-72c5-4b23-b161-355dd65fe795</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b835d290-0cd9-40e0-92b9-72b1ee586089</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>3c3869d8-2f1a-4df1-8bef-dcfc720ff365</guid>
